@@ -1,0 +1,34 @@
+// microsip.idl : IDL source for microsip
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (microsip.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(BE5781CE-BE6B-484A-8729-E39A840C2735),
+	version(1.0)	
+]
+library microsipLib
+{
+	importlib("stdole2.tlb");
+};
+// microsip.idl : IDL source for microsip
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (microsip.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	uuid(D10B8351-A6F1-4F35-90D0-1B22396E537D),
+	version(1.0)	
+]
+library microsipLib
+{
+	importlib("stdole2.tlb");
+};

@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="References">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AccountDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonDialer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Calls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClosableTabCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Contacts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="jumplist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="langpack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessagesDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="microsip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="microsipDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Preview.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RinginDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Transfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualStylesXP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureEx.cpp">
+      <Filter>References</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogWeb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="explorer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogWeb2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgFop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSupers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AES.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgOOO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgPhoneOOO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgBot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgRight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgIE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ACEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ACListWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProspect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccountDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="addons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonDialer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Calls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClosableTabCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="const.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Contacts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="jumplist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="langpack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessagesDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="microsip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="microsipDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Preview.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RinginDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Transfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualStylesXP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureEx.h">
+      <Filter>References</Filter>
+    </ClInclude>
+    <ClInclude Include="GifAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winimage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogWeb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="explorer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogWeb2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogTest2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgFop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogSupers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AES.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgOOO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgPhoneOOO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WinHttpClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgBot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgRight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgIE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ACEdit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ACListWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RegExp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringProcess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProspect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\active.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\away.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\blank.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\busy.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\callin.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\callmiss.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\callout.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\close.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\close2.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\error.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\exit.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\icon2.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\inactive.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="custom\ligue36-logo.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="custom\ligue36.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="custom\logo.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\microsip.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\offline.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\online.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\ringing.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\unknown.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\1444852109_headset.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\headset_old.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\headset_all.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\headset.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\speaker.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\default.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\muteout.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\mutedout.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\mutein.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\mutedin.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\hold.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\transfer.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\message.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\voicemail.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\logo.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\viber.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\Phone_rings.gif">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\Telephones1.gif">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\Telephones1 (1).gif">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\ring.gif">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\idle.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\notdist.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\icon3.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\fop2.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\ooo.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\iNotes.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\1451359617_Listen.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\listener.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\CO-OP\icons\unlock-xxl.png">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\CO-OP\icons\unlock.png">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\CO-OP\icons\unlock.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Male.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Comment.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Copy.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Report.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Sad.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Forward.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Message.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Play.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Dollar.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Home.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="3days.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\inotes_16x16_RLr_icon.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\logout.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\Move-Out-Iconv2.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\Tenant-Complaintsv2.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\COI-Iconv2.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\3-Day-Notice.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\LR_2.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\Move-out_1.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\Rent-Payment_1.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\TNT-CMPLT_1.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\Rent-Stmt_2.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\Dispo_1.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\PRSPCT_1.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\COI_1.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\LR_3.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\Send-LB-Info_1.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\Super-contact.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\Payment.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\Complaint.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\PRSPCT.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\Super-Icon-updated.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="res\icon10.ico">
+      <Filter>References</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\..\Users\Administrator\Desktop\iNotesLink.ico">
+      <Filter>References</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="microsip.rc">
+      <Filter>References</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>References</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\microsip.rc2">
+      <Filter>References</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="StatusBar.htm" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="res\ringing.avi" />
+    <None Include="res\gif1.bin">
+      <Filter>References</Filter>
+    </None>
+    <None Include="res\gif2.bin">
+      <Filter>References</Filter>
+    </None>
+    <None Include="microsip.rgs">
+      <Filter>References</Filter>
+    </None>
+    <None Include="res\microsip.bin">
+      <Filter>References</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\Ringin.wav">
+      <Filter>References</Filter>
+    </Media>
+    <Media Include="res\Ringin2.wav">
+      <Filter>References</Filter>
+    </Media>
+    <Media Include="res\Ringout.wav">
+      <Filter>References</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BB46A3FD-3E25-44BF-9DED-36A8E838A095}</ProjectGuid>
+    <RootNamespace>microsip</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+    <NuGetPackageImportStamp>18ea5a00</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <GenerateManifest>true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\MySpace\INCUBATE\PJSIP\VS2013\pjproject-2.4.5\pjnath\include;../include;../../pjlib/include;../../pjlib-util/include;../../pjmedia/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;PJ_WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>imm32.lib;version.lib;winmm.lib;wsock32.lib;ws2_32.lib;ole32.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\MySpace\INCUBATE\PJSIP\VS2013\pjproject-2.4.5\lib;C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86;c:\OpenSSL\lib\VC\static;../third_party/opencore-amrnb;../lib;../ffmpeg/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <RegisterOutput>true</RegisterOutput>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <AdditionalIncludeDirectories>C:\MySpace\INCUBATE\PJSIP\VS2013\pjproject-2.4.5\pjnath\include;../include;../../pjlib/include;../../pjlib-util/include;../../pjmedia/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>imm32.lib;version.lib;winmm.lib;strmbase.lib;Winhttp.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>c:\Program Files\Microsoft SDKs\Windows\v7.1\Lib;c:\OpenSSL\lib\VC\static;../third_party/opencore-amrnb;C:\Program Files\Microsoft SDKs\Windows\v6.0\Samples\Multimedia\DirectShow\BaseClasses\Release;../lib;../ffmpeg/lib;C:\MySpace\INCUBATE\PJSIP\VS2013\pjproject-2.4.5\lib;C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <MinimumRequiredVersion>5.01</MinimumRequiredVersion>
+      <RegisterOutput>true</RegisterOutput>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AccountDlg.cpp" />
+    <ClCompile Include="ACEdit.cpp" />
+    <ClCompile Include="ACListWnd.cpp" />
+    <ClCompile Include="AddDlg.cpp" />
+    <ClCompile Include="addons.cpp" />
+    <ClCompile Include="AES.cpp" />
+    <ClCompile Include="BaseDialog.cpp" />
+    <ClCompile Include="ButtonDialer.cpp" />
+    <ClCompile Include="Calls.cpp" />
+    <ClCompile Include="ClosableTabCtrl.cpp" />
+    <ClCompile Include="Contacts.cpp" />
+    <ClCompile Include="Crypto.cpp" />
+    <ClCompile Include="Dialer.cpp" />
+    <ClCompile Include="DialogSupers.cpp" />
+    <ClCompile Include="DialogWeb.cpp" />
+    <ClCompile Include="DialogWeb2.cpp" />
+    <ClCompile Include="DlgBot.cpp" />
+    <ClCompile Include="DlgFop.cpp" />
+    <ClCompile Include="DlgIE.cpp" />
+    <ClCompile Include="DlgOOO.cpp" />
+    <ClCompile Include="DlgPhoneOOO.cpp" />
+    <ClCompile Include="DlgProspect.cpp" />
+    <ClCompile Include="DlgRight.cpp" />
+    <ClCompile Include="DlgText.cpp" />
+    <ClCompile Include="DlgTop.cpp" />
+    <ClCompile Include="explorer.cpp" />
+    <ClCompile Include="global.cpp" />
+    <ClCompile Include="jumplist.cpp" />
+    <ClCompile Include="langpack.cpp" />
+    <ClCompile Include="MessagesDlg.cpp" />
+    <ClCompile Include="microsip.cpp" />
+    <ClCompile Include="microsipDlg.cpp" />
+    <ClCompile Include="MyButton.cpp" />
+    <ClCompile Include="PictureEx.cpp" />
+    <ClCompile Include="Preview.cpp" />
+    <ClCompile Include="RinginDlg.cpp" />
+    <ClCompile Include="settings.cpp" />
+    <ClCompile Include="SettingsDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Transfer.cpp" />
+    <ClCompile Include="utf.cpp" />
+    <ClCompile Include="VisualStylesXP.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccountDlg.h" />
+    <ClInclude Include="ACEdit.h" />
+    <ClInclude Include="ACListWnd.h" />
+    <ClInclude Include="AddDlg.h" />
+    <ClInclude Include="addons.h" />
+    <ClInclude Include="AES.h" />
+    <ClInclude Include="BaseDialog.h" />
+    <ClInclude Include="ButtonDialer.h" />
+    <ClInclude Include="Calls.h" />
+    <ClInclude Include="ClosableTabCtrl.h" />
+    <ClInclude Include="const.h" />
+    <ClInclude Include="Contacts.h" />
+    <ClInclude Include="Crypto.h" />
+    <ClInclude Include="Dialer.h" />
+    <ClInclude Include="DialogSupers.h" />
+    <ClInclude Include="DialogTest2.h" />
+    <ClInclude Include="DialogWeb.h" />
+    <ClInclude Include="DialogWeb2.h" />
+    <ClInclude Include="DlgBot.h" />
+    <ClInclude Include="DlgFop.h" />
+    <ClInclude Include="DlgIE.h" />
+    <ClInclude Include="DlgOOO.h" />
+    <ClInclude Include="DlgPhoneOOO.h" />
+    <ClInclude Include="DlgProspect.h" />
+    <ClInclude Include="DlgRight.h" />
+    <ClInclude Include="DlgText.h" />
+    <ClInclude Include="DlgTop.h" />
+    <ClInclude Include="explorer.h" />
+    <ClInclude Include="GifAnimation.h" />
+    <ClInclude Include="global.h" />
+    <ClInclude Include="jumplist.h" />
+    <ClInclude Include="langpack.h" />
+    <ClInclude Include="MessagesDlg.h" />
+    <ClInclude Include="microsip.h" />
+    <ClInclude Include="microsipDlg.h" />
+    <ClInclude Include="MyButton.h" />
+    <ClInclude Include="PictureEx.h" />
+    <ClInclude Include="Preview.h" />
+    <ClInclude Include="RegExp.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="RinginDlg.h" />
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="SettingsDlg.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="StringProcess.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Transfer.h" />
+    <ClInclude Include="utf.h" />
+    <ClInclude Include="VisualStylesXP.h" />
+    <ClInclude Include="WinHttpClient.h" />
+    <ClInclude Include="winimage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\..\..\Users\Administrator\Desktop\iNotesLink.ico" />
+    <Image Include="..\..\..\..\..\..\CO-OP\icons\unlock-xxl.png" />
+    <Image Include="..\..\..\..\..\..\CO-OP\icons\unlock.ico" />
+    <Image Include="..\..\..\..\..\..\CO-OP\icons\unlock.png" />
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Comment.ico" />
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Copy.ico" />
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Dollar.ico" />
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Forward.ico" />
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Home.ico" />
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Male.ico" />
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Message.ico" />
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Play.ico" />
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Report.ico" />
+    <Image Include="..\..\..\..\16x16-free-application-icons\ico\Sad.ico" />
+    <Image Include="3days.ico" />
+    <Image Include="custom\ligue36-logo.ico" />
+    <Image Include="custom\ligue36.ico" />
+    <Image Include="custom\logo.ico" />
+    <Image Include="res\1444852109_headset.ico" />
+    <Image Include="res\1451359617_Listen.ico" />
+    <Image Include="res\3-Day-Notice.ico" />
+    <Image Include="res\COI-Iconv2.ico" />
+    <Image Include="res\COI_1.ico" />
+    <Image Include="res\Complaint.ico" />
+    <Image Include="res\default.ico" />
+    <Image Include="res\Dispo_1.ico" />
+    <Image Include="res\fop2.ico" />
+    <Image Include="res\headset.ico" />
+    <Image Include="res\headset_all.ico" />
+    <Image Include="res\headset_old.ico" />
+    <Image Include="res\active.ico" />
+    <Image Include="res\away.ico" />
+    <Image Include="res\blank.ico" />
+    <Image Include="res\busy.ico" />
+    <Image Include="res\callin.ico" />
+    <Image Include="res\callmiss.ico" />
+    <Image Include="res\callout.ico" />
+    <Image Include="res\close.ico" />
+    <Image Include="res\close2.ico" />
+    <Image Include="res\error.ico" />
+    <Image Include="res\exit.ico" />
+    <Image Include="res\hold.ico" />
+    <Image Include="res\icon1.ico" />
+    <Image Include="res\icon10.ico" />
+    <Image Include="res\icon2.ico" />
+    <Image Include="res\icon3.ico" />
+    <Image Include="res\idle.ico" />
+    <Image Include="res\inactive.ico" />
+    <Image Include="res\iNotes.ico" />
+    <Image Include="res\inotes_16x16_RLr_icon.ico" />
+    <Image Include="res\listener.ico" />
+    <Image Include="res\logo.ico" />
+    <Image Include="res\logout.ico" />
+    <Image Include="res\LR_2.ico" />
+    <Image Include="res\LR_3.ico" />
+    <Image Include="res\message.ico" />
+    <Image Include="res\microsip.ico" />
+    <Image Include="res\Move-Out-Iconv2.ico" />
+    <Image Include="res\Move-out_1.ico" />
+    <Image Include="res\mutedin.ico" />
+    <Image Include="res\mutedout.ico" />
+    <Image Include="res\mutein.ico" />
+    <Image Include="res\muteout.ico" />
+    <Image Include="res\notdist.ico" />
+    <Image Include="res\offline.ico" />
+    <Image Include="res\online.ico" />
+    <Image Include="res\ooo.ico" />
+    <Image Include="res\Payment.ico" />
+    <Image Include="res\Phone_rings.gif" />
+    <Image Include="res\PRSPCT.ico" />
+    <Image Include="res\PRSPCT_1.ico" />
+    <Image Include="res\Rent-Payment_1.ico" />
+    <Image Include="res\Rent-Stmt_2.ico" />
+    <Image Include="res\ring.gif" />
+    <Image Include="res\ringing.ico" />
+    <Image Include="res\Send-LB-Info_1.ico" />
+    <Image Include="res\speaker.ico" />
+    <Image Include="res\Super-contact.ico" />
+    <Image Include="res\Super-Icon-updated.ico" />
+    <Image Include="res\Telephones1 (1).gif" />
+    <Image Include="res\Telephones1.gif" />
+    <Image Include="res\Tenant-Complaintsv2.ico" />
+    <Image Include="res\TNT-CMPLT_1.ico" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\transfer.ico" />
+    <Image Include="res\unknown.ico" />
+    <Image Include="res\viber.ico" />
+    <Image Include="res\voicemail.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="microsip.rc" />
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="microsip.rgs" />
+    <None Include="res\gif1.bin" />
+    <None Include="res\gif2.bin" />
+    <None Include="res\microsip.bin" />
+    <None Include="res\microsip.rc2" />
+    <None Include="res\ringing.avi" />
+    <None Include="StatusBar.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\Ringin.wav" />
+    <Media Include="res\Ringin2.wav" />
+    <Media Include="res\Ringout.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties _x007B_8856F961-340A-11D0-A96B-00C04FD705A2_x007D_="CExplorer" RESOURCE_FILE="microsip.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

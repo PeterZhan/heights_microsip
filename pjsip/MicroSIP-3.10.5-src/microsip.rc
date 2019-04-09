@@ -1,0 +1,763 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_EXIT                ICON                    "res\\exit.ico"
+IDI_DEFAULT             ICON                    "res\\default.ico"
+IDI_UNKNOWN             ICON                    "res\\unknown.ico"
+IDI_OFFLINE             ICON                    "res\\offline.ico"
+IDI_BUSY                ICON                    "res\\busy.ico"
+IDI_AWAY                ICON                    "res\\away.ico"
+IDI_ONLINE              ICON                    "res\\online.ico"
+IDI_ACTIVE              ICON                    "res\\active.ico"
+IDI_BLANK               ICON                    "res\\blank.ico"
+IDI_CALL_OUT            ICON                    "res\\callout.ico"
+IDI_CALL_IN             ICON                    "res\\callin.ico"
+IDI_CALL_MISS           ICON                    "res\\callmiss.ico"
+IDI_MUTE_OUTPUT         ICON                    "res\\muteout.ico"
+IDI_MUTED_OUTPUT        ICON                    "res\\mutedout.ico"
+IDI_MUTE_INPUT          ICON                    "res\\mutein.ico"
+IDI_MUTED_INPUT         ICON                    "res\\mutedin.ico"
+IDI_MODE_HEADSET        ICON                    "res\\headset.ico"
+IDI_MODE_SPEAKER        ICON                    "res\\speaker.ico"
+IDI_HOLD                ICON                    "res\\hold.ico"
+IDI_TRANSFER            ICON                    "res\\transfer.ico"
+IDI_MESSAGE             ICON                    "res\\message.ico"
+IDI_CLOSE               ICON                    "res\\close.ico"
+IDI_CLOSE_2             ICON                    "res\\close2.ico"
+IDI_INACTIVE            ICON                    "res\\inactive.ico"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\microsip.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\r\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_VOICEMAIL           ICON                    "res\\voicemail.ico"
+IDI_HOMEPAGE            ICON                    "res\\logo.ico"
+IDI_VIBER               ICON                    "res\\viber.ico"
+IDI_ICONIDLE            ICON                    "res\\idle.ico"
+IDI_ICONNOT             ICON                    "res\\notdist.ico"
+IDI_FOP2                ICON                    "res\\fop2.ico"
+IDI_ICONOOO             ICON                    "res\\ooo.ico"
+IDI_ICONLISTENER        ICON                    "res\\listener.ico"
+IDI_UNLOCK              ICON                    "C:\\MySpace\\CO-OP\\icons\\unlock.ico"
+IDI_ICONCALLSUPER       ICON                    "C:\\MySpace\\INCUBATE\\PJSIP\\16x16-free-application-icons\\ico\\Male.ico"
+IDI_BTNTEXT             ICON                    "C:\\MySpace\\INCUBATE\\PJSIP\\16x16-free-application-icons\\ico\\Comment.ico"
+IDI_BTNSENDLEASE        ICON                    "C:\\MySpace\\INCUBATE\\PJSIP\\16x16-free-application-icons\\ico\\Copy.ico"
+IDI_BTNEBILL            ICON                    "C:\\MySpace\\INCUBATE\\PJSIP\\16x16-free-application-icons\\ico\\Report.ico"
+IDI_BTNTAGCOMP          ICON                    "C:\\MySpace\\INCUBATE\\PJSIP\\16x16-free-application-icons\\ico\\Sad.ico"
+IDI_BTNMOVE             ICON                    "C:\\MySpace\\INCUBATE\\PJSIP\\16x16-free-application-icons\\ico\\Forward.ico"
+IDI_BTNIMAGE            ICON                    "C:\\MySpace\\INCUBATE\\PJSIP\\16x16-free-application-icons\\ico\\Message.ico"
+IDI_BTNCALLRENEWAL      ICON                    "C:\\MySpace\\INCUBATE\\PJSIP\\16x16-free-application-icons\\ico\\Play.ico"
+IDI_BTNCALLRENT         ICON                    "C:\\MySpace\\INCUBATE\\PJSIP\\16x16-free-application-icons\\ico\\Dollar.ico"
+IDI_BTNCALLRENTSTATE    ICON                    "C:\\MySpace\\INCUBATE\\PJSIP\\16x16-free-application-icons\\ico\\Home.ico"
+IDI_ICON3DAYS           ICON                    "3days.ico"
+IDI_NEW_ICONINOTES      ICON                    "res\\inotes_16x16_RLr_icon.ico"
+IDI_ICONNEWOOO          ICON                    "res\\logout.ico"
+IDI_ICONMOVEOUT         ICON                    "res\\Move-Out-Iconv2.ico"
+IDI_ICONTENCOMP         ICON                    "res\\Tenant-Complaintsv2.ico"
+IDI_ICONCOI             ICON                    "res\\COI-Iconv2.ico"
+IDI_ICON3DNBIG          ICON                    "res\\3-Day-Notice.ico"
+IDI_ICONLRBIG           ICON                    "res\\LR_2.ico"
+IDI_ICONMOVEBIG         ICON                    "res\\Move-out_1.ico"
+IDI_ICONRENTPBIG        ICON                    "res\\Rent-Payment_1.ico"
+IDI_ICONTENCOMPBIG      ICON                    "res\\TNT-CMPLT_1.ico"
+IDI_ICONRSTATEBIG       ICON                    "res\\Rent-Stmt_2.ico"
+IDI_ICONDISPOBIG        ICON                    "res\\Dispo_1.ico"
+IDI_ICONPROSPBIG        ICON                    "res\\PRSPCT_1.ico"
+IDI_ICONCOIBIG          ICON                    "res\\COI_1.ico"
+IDI_ICONSENDLRBIG       ICON                    "res\\LR_3.ico"
+IDI_ICONLBBIG           ICON                    "res\\Send-LB-Info_1.ico"
+IDI_ICONSUPERTEXTBIG    ICON                    "res\\Super-contact.ico"
+IDI_ICONPAYMENTBIG      ICON                    "res\\Payment.ico"
+IDI_ICONCOMPBIG         ICON                    "res\\Complaint.ico"
+IDI_ICONPROSPECTBIG     ICON                    "res\\PRSPCT.ico"
+IDI_ICONSUPERCALLBIG    ICON                    "res\\Super-Icon-updated.ico"
+IDI_ICON10              ICON                    "res\\icon10.ico"
+IDI_ICONNEWINOTS        ICON                    "C:\\Users\\Administrator\\Desktop\\iNotesLink.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_TRAY MENU
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "Add account...",              ID_ACCOUNT_ADD
+        MENUITEM SEPARATOR
+        MENUITEM "Settings\tCtrl+P",            ID_SETTINGS
+        MENUITEM SEPARATOR
+        MENUITEM "Always on Top",               ID_ALWAYS_ON_TOP
+        MENUITEM "View log file",               ID_LOG
+        MENUITEM SEPARATOR
+        MENUITEM "Update",                      ID__UPDATE
+        MENUITEM "Help",                        ID__HELP
+        MENUITEM SEPARATOR
+        MENUITEM "Exit\tCtrl+X",                ID_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_RINGIN DIALOGEX 0, 0, 229, 80
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST
+CAPTION "Incoming call"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "",IDC_CALLER_NAME,24,15,174,18
+    PUSHBUTTON      "Answer",IDC_ANSWER,28,52,82,14
+    PUSHBUTTON      "Decline",IDC_DECLINE,116,52,82,14
+    CTEXT           "close window to ignore call",IDC_IGNORE,28,71,170,8
+    EDITTEXT        IDC_CALLER_ADDR,42,34,141,15,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY
+    ICON            IDI_VIBER,IDC_STATIC,187,6,20,20,SS_REALSIZEIMAGE
+    CONTROL         "",IDC_PICTURE,"Static",SS_BITMAP | SS_CENTERIMAGE | SS_REALSIZEIMAGE,5,6,22,27,WS_EX_TRANSPARENT
+END
+
+IDD_DIALER DIALOGEX 0, 0, 178, 178
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_NUMBER,25,36,125,30,CBS_DROPDOWN | CBS_AUTOHSCROLL | NOT WS_VISIBLE | WS_VSCROLL
+    PUSHBUTTON      "Call",IDC_CALL,25,26,126,15,WS_DISABLED
+    PUSHBUTTON      "End call",IDC_END,6,127,82,18,NOT WS_VISIBLE
+    PUSHBUTTON      "Transfer",IDC_TRANSFER,9,111,23,18,BS_ICON | NOT WS_VISIBLE | WS_DISABLED
+    CHECKBOX        "Hold",IDC_HOLD,144,89,23,18,BS_ICON | BS_PUSHLIKE | NOT WS_VISIBLE | WS_DISABLED
+    CONTROL         "1",IDC_KEY_1,"Button",BS_OWNERDRAW | WS_TABSTOP,26,61,39,18
+    CONTROL         "2",IDC_KEY_2,"Button",BS_OWNERDRAW | WS_TABSTOP,69,61,39,18
+    CONTROL         "3",IDC_KEY_3,"Button",BS_OWNERDRAW | WS_TABSTOP,112,61,39,18
+    CONTROL         "4",IDC_KEY_4,"Button",BS_OWNERDRAW | WS_TABSTOP,26,82,39,18
+    CONTROL         "5",IDC_KEY_5,"Button",BS_OWNERDRAW | WS_TABSTOP,69,82,39,18
+    CONTROL         "6",IDC_KEY_6,"Button",BS_OWNERDRAW | WS_TABSTOP,112,82,39,18
+    CONTROL         "7",IDC_KEY_7,"Button",BS_OWNERDRAW | WS_TABSTOP,26,103,39,18
+    CONTROL         "8",IDC_KEY_8,"Button",BS_OWNERDRAW | WS_TABSTOP,69,103,39,18
+    CONTROL         "9",IDC_KEY_9,"Button",BS_OWNERDRAW | WS_TABSTOP,112,103,39,18
+    CONTROL         "0",IDC_KEY_0,"Button",BS_OWNERDRAW | WS_TABSTOP,69,124,39,18
+    CONTROL         "*",IDC_KEY_STAR,"Button",BS_OWNERDRAW | WS_TABSTOP,26,124,39,18
+    CONTROL         "#",IDC_KEY_GRATE,"Button",BS_OWNERDRAW | WS_TABSTOP,112,124,39,18
+    CONTROL         "+",IDC_KEY_PLUS,"Button",BS_OWNERDRAW | WS_TABSTOP,69,145,39,18
+    CONTROL         "<",IDC_DELETE,"Button",BS_OWNERDRAW | WS_TABSTOP,26,145,39,18
+    CONTROL         "C",IDC_CLEAR,"Button",BS_OWNERDRAW | WS_TABSTOP,112,145,39,18
+    CTEXT           "+",IDC_STATIC,5,54,16,8
+    CONTROL         "Microphone level",IDC_VOLUME_INPUT,"msctls_trackbar32",TBS_VERT | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP | 0x200,5,62,20,60
+    CTEXT           "–",IDC_STATIC,5,121,16,8
+    CONTROL         "Mute microphone",IDC_BUTTON_MUTE_INPUT,"Button",BS_AUTOCHECKBOX | BS_ICON | BS_PUSHLIKE | BS_FLAT | WS_TABSTOP,5,137,16,16
+    CTEXT           "+",IDC_STATIC,156,54,16,8
+    CONTROL         "Speaker level",IDC_VOLUME_OUTPUT,"msctls_trackbar32",TBS_VERT | TBS_BOTH | TBS_NOTICKS | WS_TABSTOP | 0x200,156,62,20,60
+    CTEXT           "–",IDC_STATIC,156,121,16,8
+    CONTROL         "Mute speaker",IDC_BUTTON_MUTE_OUTPUT,"Button",BS_AUTOCHECKBOX | BS_ICON | BS_PUSHLIKE | BS_FLAT | WS_TABSTOP,156,137,16,16
+    CONTROL         "",IDC_BUTTON_MODE_SELECTION,"Button",BS_AUTOCHECKBOX | BS_ICON | BS_CENTER | BS_PUSHLIKE | BS_FLAT | WS_TABSTOP,9,5,15,18
+    PUSHBUTTON      "new vm:",IDC_VMCOUNT,152,5,15,18,BS_ICON
+    LTEXT           "",IDC_VM_COUNT,163,0,8,8
+    GROUPBOX        "",IDC_STATIC,0,44,177,132,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "",IDC_DONTDIST,152,25,15,18,BS_ICON
+    PUSHBUTTON      "",IDC_FOP2,9,25,15,18,BS_ICON
+    PUSHBUTTON      "<",IDC_SHOWCALL,0,5,8,38,NOT WS_VISIBLE
+    PUSHBUTTON      ">",IDC_HIDECALL,0,5,8,38,NOT WS_VISIBLE
+    PUSHBUTTON      "Button2",IDC_BUTTON2,0,139,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Enable OoO",IDC_BUTTONOOO,153,163,22,11,BS_ICON
+    PUSHBUTTON      "Daily Listener",IDC_BUTTONDAILY,77,163,22,11,BS_ICON
+    PUSHBUTTON      "iNotes",IDC_BUTTONINOTES,2,163,22,11,BS_ICON
+    PUSHBUTTON      "Door Phone",ID_BTNDOOR,23,50,112,10,NOT WS_VISIBLE
+    PUSHBUTTON      "Button4",IDC_MESSAGE,137,124,31,14,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_BTNUNLOCK,136,50,18,10,BS_ICON
+    PUSHBUTTON      "<",IDC_HIDEBUTTONS,169,6,8,38,NOT WS_VISIBLE
+    PUSHBUTTON      ">",IDC_SHOWBUTTONS,169,6,8,38,NOT WS_VISIBLE
+    EDITTEXT        IDC_ACEDIT,30,7,116,14,ES_AUTOHSCROLL
+    CTEXT           "Date",IDC_TEXT_DATE,27,165,43,8
+    CTEXT           "Time",IDC_TEXT_TIME,103,165,48,8
+END
+
+IDD_MICROSIP_DIALOG DIALOGEX 0, 0, 183, 209
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",ID_TAB,"SysTabControl32",TCS_RAGGEDRIGHT | 0x8,0,3,183,16,WS_EX_TRANSPARENT | WS_EX_CLIENTEDGE
+END
+
+IDD_MESSAGES DIALOGEX 0, 0, 411, 210
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE
+CAPTION "Active Calls"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_TAB,"SysTabControl32",TCS_BOTTOM | TCS_RAGGEDRIGHT | WS_BORDER | WS_TABSTOP | 0x8,0,1,386,12
+    PUSHBUTTON      "Last Call",IDC_LAST_CALL,118,1,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Close All",IDC_CLOSE_ALL,286,75,50,14,NOT WS_VISIBLE
+    CONTROL         "Messages list",IDC_LIST,"RichEdit20W",NOT WS_VISIBLE | WS_VSCROLL | WS_TABSTOP | 0x2804,0,200,411,10,WS_EX_STATICEDGE
+    CONTROL         "Enter message",IDC_MESSAGE,"RichEdit20W",NOT WS_VISIBLE | WS_BORDER | WS_VSCROLL | WS_TABSTOP | 0x84,169,62,159,6
+    PUSHBUTTON      "Call",IDC_CALL_END,5,15,45,11,NOT WS_TABSTOP
+    PUSHBUTTON      "Video call",IDC_VIDEO_CALL,217,74,70,14,NOT WS_VISIBLE
+    CHECKBOX        "Hold",IDC_HOLD,57,15,45,11,BS_PUSHLIKE | NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "End call",IDC_END,6,15,45,11,NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "Transfer",IDC_TRANSFER,107,15,45,11,NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "Atx-Transfer",IDC_ATTDTRANSFER,157,15,45,11,NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "Conference",IDC_CONFERENCE,307,15,45,11,NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "Merge",IDC_MERGE,207,15,45,11,NOT WS_VISIBLE | NOT WS_TABSTOP
+    PUSHBUTTON      "To Cell",IDC_TOCELL,257,15,45,11,NOT WS_VISIBLE | NOT WS_TABSTOP
+    ICON            IDI_HOMEPAGE,IDC_LOGO,313,190,20,20,SS_CENTERIMAGE | NOT WS_VISIBLE,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_EXPLORER1,"{8856F961-340A-11D0-A96B-00C04FD705A2}",WS_TABSTOP,0,29,411,170
+    PUSHBUTTON      "Close",IDC_TABCLOSE,390,1,21,12,BS_RIGHT
+    PUSHBUTTON      "Open Door",IDC_OPENDOOR,357,15,45,11,NOT WS_VISIBLE | NOT WS_TABSTOP
+    LISTBOX         IDC_LISTDAILY,3,39,405,150,LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | NOT WS_VISIBLE | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    LTEXT           "",IDC_STATIC_NUM,371,30,35,8
+    LTEXT           "",IDC_TIME_PASS,9,30,29,8
+END
+
+IDD_TRANSFER DIALOGEX 0, 0, 181, 53
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Call Transfer"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    RTEXT           "Number",IDC_STATIC,7,10,40,8
+    EDITTEXT        IDC_NUMBER1,51,32,123,14,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    DEFPUSHBUTTON   "OK",IDOK,29,32,70,14
+    PUSHBUTTON      "Cancel",IDCANCEL,104,32,70,14
+    COMBOBOX        IDC_NUMBER,53,8,103,30,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_FORM_WEB DIALOGEX 0, 0, 495, 318
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TRANSPARENT
+CAPTION "Call Information"
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_EXPLORER,"{8856F961-340A-11D0-A96B-00C04FD705A2}",WS_TABSTOP,0,0,495,313
+END
+
+IDD_CALLS DIALOGEX 0, 0, 177, 179
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_CALLS,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,0,0,177,179
+END
+
+IDD_FOP2 DIALOGEX 0, 0, 505, 346
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_CAPTION | WS_SYSMENU
+CAPTION "FOP2"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",ID_WEBBROWFOP2,"{8856F961-340A-11D0-A96B-00C04FD705A2}",WS_TABSTOP,7,7,491,332
+END
+
+IDD_DLGSUPERS DIALOGEX 0, 0, 177, 179
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_EXP,"{8856F961-340A-11D0-A96B-00C04FD705A2}",WS_TABSTOP,0,0,177,178
+END
+
+IDD_DIALOGOOO DIALOGEX 0, 0, 163, 84
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOPMOST
+CAPTION "Out Of Office"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Disable Out Of Office",IDOK,35,57,86,14
+    LTEXT           "Out-Of-Office  Enabled !",IDC_STATIC,41,17,86,11
+    LTEXT           "Click The Button To Disable The OoO.",IDC_STATIC,23,33,120,8
+END
+
+IDD_DLGPHONEOOO DIALOGEX 0, 0, 231, 166
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Out Of Office"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Enable OOO",IDOK,37,140,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,133,140,50,14
+    CONTROL         "",IDC_LISTPHONE,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,24,216,110
+    LTEXT           "Transferred To:",IDC_STATIC,9,10,52,8
+END
+
+IDD_CONTACTS DIALOGEX 0, 0, 177, 179
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_CONTACTS,"SysListView32",LVS_REPORT | LVS_SORTASCENDING | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,0,0,177,179
+END
+
+IDD_ADD DIALOGEX 0, 0, 181, 82
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Contact"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_NUMBER,51,7,123,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_NAME,51,26,123,14,ES_AUTOHSCROLL
+    RTEXT           "Number",IDC_STATIC,7,9,40,8
+    RTEXT           "Name",IDC_STATIC,7,28,40,8
+    DEFPUSHBUTTON   "OK",IDOK,29,64,70,14
+    PUSHBUTTON      "Cancel",IDCANCEL,105,64,70,14
+    EDITTEXT        IDC_EDIT_TYPE,51,43,123,14,ES_AUTOHSCROLL
+    RTEXT           "Type",IDC_STATIC,6,46,40,8
+END
+
+IDD_DLGTOP DIALOGEX 0, 0, 177, 84
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_EXPTOP,"{8856F961-340A-11D0-A96B-00C04FD705A2}",WS_TABSTOP,0,0,175,82
+END
+
+IDD_DLGBOT DIALOGEX 0, 0, 411, 210
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE | WS_EX_APPWINDOW
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_EXPBOT,"{8856F961-340A-11D0-A96B-00C04FD705A2}",WS_TABSTOP,0,0,409,208
+END
+
+IDD_DLGRIGHT DIALOGEX 0, 0, 90, 210
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_STATICEDGE | WS_EX_APPWINDOW
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Call Super",IDC_BTNCALLSUPER,43,3,36,21,BS_ICON | NOT WS_VISIBLE
+    PUSHBUTTON      "Send Lease Renewal",IDC_BTNSENDLEASE,43,72,36,21,BS_ICON | BS_MULTILINE | NOT WS_VISIBLE
+    PUSHBUTTON      "Send EBill",IDC_BTNEBILL,43,95,36,21,BS_ICON | NOT WS_VISIBLE
+    PUSHBUTTON      "Text Super",IDC_BTNTEXT,43,26,36,21,BS_ICON | NOT WS_VISIBLE
+    PUSHBUTTON      "TagTenant Complaint",IDC_BTNTAGCOMP,4,49,36,21,BS_ICON | BS_MULTILINE | NOT WS_VISIBLE
+    PUSHBUTTON      "Tag MoveOut",IDC_BTNMOVE,4,72,36,21,BS_ICON | NOT WS_VISIBLE
+    PUSHBUTTON      "Tag Check Image",IDC_BTNIMAGE,4,95,36,21,BS_ICON | BS_MULTILINE | NOT WS_VISIBLE
+    PUSHBUTTON      "Tag Rent Payment",IDC_BTNCALLRENT,4,141,36,21,BS_ICON | BS_MULTILINE | NOT WS_VISIBLE
+    PUSHBUTTON      "Tag Lease Renewal",IDC_BTNCALLRENEWAL,4,118,36,21,BS_ICON | BS_MULTILINE | NOT WS_VISIBLE
+    PUSHBUTTON      "Tag Rent Statement",IDC_BTNCALLRENTSTATE,4,3,36,21,BS_ICON | BS_MULTILINE | NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT1,3,0,6,12,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    PUSHBUTTON      "Tag 3DN",IDC_BTNCALL3DN,4,26,36,21,BS_ICON | BS_MULTILINE | NOT WS_VISIBLE
+    PUSHBUTTON      "Tag Prospect",IDC_BTNPROSPECT,4,163,36,21,BS_ICON | BS_MULTILINE | NOT WS_VISIBLE
+    PUSHBUTTON      "Request COI",IDC_BTNPREQCOI,43,49,36,21,BS_ICON | BS_MULTILINE | NOT WS_VISIBLE
+    PUSHBUTTON      "Tag Window Guard/Smoke/CO Detector Charge",IDC_BTNCHARGE,4,186,36,21,BS_ICON | BS_MULTILINE | NOT WS_VISIBLE
+END
+
+IDD_DIALOGIE DIALOGEX 0, 0, 187, 98
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Web Browser"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,69,81,50,14
+    CONTROL         "",IDC_IE,"{8856F961-340A-11D0-A96B-00C04FD705A2}",WS_TABSTOP,7,7,173,72
+END
+
+IDD_DLGTEXT DIALOGEX 0, 0, 283, 73
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Text"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_IESEND,"{8856F961-340A-11D0-A96B-00C04FD705A2}",WS_TABSTOP,7,7,269,37
+    EDITTEXT        IDC_EDITTEXT,7,48,216,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Send",IDC_BTNSEND,226,48,50,14
+END
+
+IDD_DIALOGTAGPROSP DIALOGEX 0, 0, 217, 60
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tag As Prospect Call"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,84,39,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,141,39,50,14
+    LTEXT           "Building Code: ",IDC_STATIC,21,20,48,8
+    EDITTEXT        IDC_EDITCODE,71,15,40,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "Apt No.:",IDC_STATICAPT,123,19,28,8
+    EDITTEXT        IDC_EDITAPTNO,155,14,40,14,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_RINGIN, DIALOG
+    BEGIN
+        RIGHTMARGIN, 228
+    END
+
+    IDD_DIALER, DIALOG
+    BEGIN
+        RIGHTMARGIN, 177
+        BOTTOMMARGIN, 176
+    END
+
+    IDD_MICROSIP_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 177
+        BOTTOMMARGIN, 207
+    END
+
+    IDD_MESSAGES, DIALOG
+    BEGIN
+        TOPMARGIN, 1
+    END
+
+    IDD_TRANSFER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 174
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 46
+    END
+
+    IDD_FORM_WEB, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 292
+    END
+
+    IDD_CALLS, DIALOG
+    BEGIN
+    END
+
+    IDD_FOP2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 498
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 339
+    END
+
+    IDD_DLGSUPERS, DIALOG
+    BEGIN
+    END
+
+    IDD_DIALOGOOO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_DLGPHONEOOO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+
+    IDD_CONTACTS, DIALOG
+    BEGIN
+    END
+
+    IDD_ADD, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 70
+    END
+
+    IDD_DLGTOP, DIALOG
+    BEGIN
+        RIGHTMARGIN, 175
+        BOTTOMMARGIN, 82
+    END
+
+    IDD_DLGBOT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 409
+        BOTTOMMARGIN, 208
+    END
+
+    IDD_DLGRIGHT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 88
+        BOTTOMMARGIN, 208
+    END
+
+    IDD_DIALOGIE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+
+    IDD_DLGTEXT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 276
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_DIALOGTAGPROSP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 53
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// GIF
+//
+
+IDB_PHONERING           GIF                     "res\\Phone_rings.gif"
+IDR_RINGING             GIF                     "res\\ring.gif"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_FORM_WEB DLGINIT
+BEGIN
+    IDC_EXPLORER, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x4ccb, 0x0000, 0x349b, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x000a, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+IDD_MESSAGES DLGINIT
+BEGIN
+    IDC_EXPLORER1, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x3fbc, 0x0000, 0x1bd6, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0007, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+IDD_FOP2 DLGINIT
+BEGIN
+    ID_WEBBROWFOP2, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x4c2c, 0x0000, 0x37d0, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0008, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+IDD_DLGSUPERS DLGINIT
+BEGIN
+    IDC_EXP, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x1b7e, 0x0000, 0x1dde, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0008, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+IDD_DLGTOP DLGINIT
+BEGIN
+    IDC_EXPTOP, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x1b2f, 0x0000, 0x0dbf, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0008, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+IDD_DLGBOT DLGINIT
+BEGIN
+    IDC_EXPBOT, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x3f75, 0x0000, 0x22ef, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0008, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+IDD_DIALOGIE DLGINIT
+BEGIN
+    IDC_IE, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x1adf, 0x0000, 0x0c18, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0008, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+IDD_DLGTEXT DLGINIT
+BEGIN
+    IDC_IESEND, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x29c1, 0x0000, 0x0634, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0008, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_UNLOCK1             PNG                     "C:\\MySpace\\CO-OP\\icons\\unlock-xxl.png"
+IDB_UNLOCK              PNG                     "C:\\MySpace\\CO-OP\\icons\\unlock.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// REGISTRY
+//
+
+IDR_MICROSIP            REGISTRY                "microsip.rgs"
+IDR_MICROSIP1           REGISTRY                "res\\microsip.bin"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    ID_STATUSBAR            "Status"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\microsip.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
